@@ -1,5 +1,14 @@
-C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\model\PetType.java
-C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\model\Person.java
+C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\model\BaseEntity.java
+C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\services\map\AbstractMapService.java
+C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\services\VetService.java
+C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\services\map\PetServiceMap.java
 C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\model\Owner.java
 C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\model\Pet.java
 C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\model\Vet.java
+C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\services\map\VetServiceMap.java
+C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\model\PetType.java
+C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\services\CrudService.java
+C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\model\Person.java
+C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\services\OwnerService.java
+C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\services\map\OwnerServiceMap.java
+C:\Users\Ennea\OneDrive\Desktop\spring5\Pet Clinic\sfg-pet-clinic-\pet-clinic-data\src\main\java\guru\springframework\sfgpetclinicapp\services\PetService.java
