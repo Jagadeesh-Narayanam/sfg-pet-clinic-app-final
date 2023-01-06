@@ -1,8 +1,6 @@
 package guru.springframework.sfgpetclinicapp.services.map;
 
-import guru.springframework.sfgpetclinicapp.model.Speciality;
 import guru.springframework.sfgpetclinicapp.model.Vet;
-import guru.springframework.sfgpetclinicapp.services.CrudService;
 import guru.springframework.sfgpetclinicapp.services.SpecialityService;
 import guru.springframework.sfgpetclinicapp.services.VetService;
 import org.springframework.stereotype.Service;
