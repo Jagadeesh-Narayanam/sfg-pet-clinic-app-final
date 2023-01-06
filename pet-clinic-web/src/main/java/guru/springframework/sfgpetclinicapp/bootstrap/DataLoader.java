@@ -1,12 +1,10 @@
 package guru.springframework.sfgpetclinicapp.bootstrap;
 
 import guru.springframework.sfgpetclinicapp.model.*;
-import guru.springframework.sfgpetclinicapp.services.OwnerService;
-import guru.springframework.sfgpetclinicapp.services.PetTypeService;
-import guru.springframework.sfgpetclinicapp.services.SpecialityService;
-import guru.springframework.sfgpetclinicapp.services.VetService;
+import guru.springframework.sfgpetclinicapp.services.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
 import java.time.LocalDate;
 
 @Component
@@ -15,12 +13,14 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialityService specialityService;
+    private final VisitService visitService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialityService specialityService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialityService specialityService, VisitService visitService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
         this.specialityService = specialityService;
+        this.visitService = visitService;
     }
 
     @Override
@@ -53,7 +53,6 @@ public class DataLoader implements CommandLineRunner {
         surgery.setDescription("Surgery");
         Speciality savedSurgery = specialityService.save(surgery);
 
-
         Owner owner1=new Owner();
         owner1.setFirstName("Jagadeesh");
         owner1.setLastName("Narayanam");
@@ -68,6 +67,12 @@ public class DataLoader implements CommandLineRunner {
         jagsPet.setBirthDate(LocalDate.now());
         owner1.getPets().add(jagsPet);
         ownerService.save(owner1);
+
+        Visit dogVisit = new Visit();
+        dogVisit.setPet(jagsPet);
+        dogVisit.setDescription("Visited Bunny on Sunday");
+        dogVisit.setLocalDate(LocalDate.now());
+        visitService.save(dogVisit);
 
         Owner owner2=new Owner();
         owner2.setFirstName("Abbas");
