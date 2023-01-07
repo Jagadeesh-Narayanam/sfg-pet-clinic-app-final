@@ -33,11 +33,11 @@ jobs:
       - run: mvn install -DskipTests
 
       - run: mvn dependency:go-offline
-
+      - run : mvn install -DskipTests
       - save_cache:
           paths:
             - ~/.m2
           key: v1-dependencies-{{ checksum "pom.xml" }}
 
       # run tests!
-      - run: mvn install
+      - run: mvn integration-test
