@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: guru.springframework.sfgpetclinicapp.SfgPetClinicAppApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.575 s - in guru.springframework.sfgpetclinicapp.SfgPetClinicAppApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.786 s - in guru.springframework.sfgpetclinicapp.SfgPetClinicAppApplicationTests
